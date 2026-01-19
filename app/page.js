@@ -9,3 +9,10 @@ export default function Home() {
     </main>
   );
 }
+'use client';
+
+import KozyTweaks from "../kozy_tweaks_landing_page";
+
+export default function Page() {
+  return <KozyTweaks />;
+}
